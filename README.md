@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Calculadora React 🧮
+Um projeto de calculadora funcional desenvolvido em React, seguindo boas práticas de desenvolvimento e estilização com CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> <img src="https://img.shields.io/badge/React-16.14.0-blue" alt="React Version">  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status"> </p>
 
-## Available Scripts
+# 🔍Visão Geral
 
-In the project directory, you can run:
+## Esta calculadora possui:
 
-### `npm start`
+✔️ Operações básicas (+, -, *, /)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ Limpeza de memória (AC)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔️ Suporte a números decimais
 
-### `npm test`
+✔️ Tratamento de erros (divisão por zero)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔️ Design responsivo
 
-### `npm run build`
+🔗 Link do Projeto no Vercel: Acesse Aqui https://projeto-calculadora-apple-gwmjdn2gs-cauereis-projects.vercel.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🛠️ Tecnologias Utilizadas
+React 16 (Componentes de classe)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CSS3 (Estilização modular)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Vercel (Hospedagem)
 
-### `npm run eject`
+GitHub (Versionamento)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🚀 Como Executar Localmente
+Clone o repositório
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+````bash
+git clone https://github.com/CaueReis/projeto-calculadora-apple.git
+Instale as dependências
+````
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+````bash
+npm install
+Inicie o servidor de desenvolvimento
+````
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+````bash
+npm start
+Acesse: http://localhost:3000
+````
 
-## Learn More
+## 📌 Estrutura do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+````bash
+projeto-calculadora-apple/
+├── public/              # Arquivos estáticos (HTML, favicon)
+├── src/
+│   ├── components/      # Componentes reutilizáveis (Button, Display)
+│   ├── App.js           # Componente principal
+│   ├── index.js         # Ponto de entrada
+│   └── styles/          # Estilos CSS
+├── package.json         # Dependências e scripts
+└── README.md            # Documentação
+````
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 🎯 Funcionalidades Implementadas
+✅ Cálculos em tempo real
 
-### Code Splitting
+✅ Botão AC (limpar tudo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✅ Tratamento de divisão por zero
 
-### Analyzing the Bundle Size
+✅ Suporte a números decimais
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ Grid layout responsivo
 
-### Making a Progressive Web App
+# 📸 Screenshot
+<p align="center"> <img src="https://github.com/user-attachments/assets/371ca7bb-6bb9-439b-a0b7-95184efa1832" alt="Calculadora Preview" width="700px"> </p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 💡 Próximos Passos
 
-### Advanced Configuration
+Adicionar histórico de operações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Implementar temas (dark/light mode)
 
-### Deployment
+Adicionar suporte a teclado
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feito com ❤️ por Cauê Reis
 
-### `npm run build` fails to minify
+# ⭐ Dê uma estrela no repositório se gostou do projeto!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 📌 Notas
+Projeto desenvolvido para estudos em React.
+
+Contribuições são bem-vindas!
+
+🔗 Link do Repositório: [GitHub](https://github.com/CaueReis/projeto-calculadora-apple)
+
+📧 Contato: cauereis00@gmail.com
+
+<p align="center">🚀 <strong>Happy Coding!</strong> 🚀</p>
